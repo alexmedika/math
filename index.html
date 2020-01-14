@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Math</title>
+
+</head>
+<body>
+<div id="app">
+    <p>Выбери действие, которое проверим</p>
+    <button @click="operation" value="add">+</button>
+    <button @click="operation" value="minus">-</button>
+    <button @click="operation" value="mult">*</button>
+    <button @click="operation" value="del">/</button>
+
+    <div  id="result">{{ result }}</div>
+</div>
+
+<script src="vue.min.js"></script>
+<script>
+
+    window.addEventListener("load", () => {
+        new Vue({
+            el: "#app",
+            data: {
+                n1: 12,
+                n2: 12,
+                result: "",
+            },
+            method: {
+                operation() {
+                    if (this.value === "add") {
+                        this.result = n1 + n2;
+                    } else if (this.value === "minus") {
+                        this.result = n1 - n2;
+                    } else if (this.value === "mult") {
+                        this.result = n1 * n2;
+                    } else if (this.value === "del") {
+                        this.result = n1 / n2;
+                    }
+                },
+
+            },
+        });
+    })
+
+
+</script>
+
+</body>
+</html>

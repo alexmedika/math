@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../js-2019-11-16/.idea/js-2019-11-16.iml" filepath="$PROJECT_DIR$/../js-2019-11-16/.idea/js-2019-11-16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../js-b-136-master/.idea/js-b-136.iml" filepath="$PROJECT_DIR$/../js-b-136-master/.idea/js-b-136.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mathematic.iml" filepath="$PROJECT_DIR$/.idea/mathematic.iml" />
+    </modules>
+  </component>
+</project>
